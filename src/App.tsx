@@ -1,23 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef, createContext, useContext, useState } from 'react';
+
+import { useLanguage } from './locales/LanguageContext';
+
+import './styles/App.css';
+import Menu from './containers/menu/Menu';
+
 
 function App() {
+  const { translations } = useLanguage();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="App flex">
+      <header>
+        <Menu></Menu>
+
       </header>
     </div>
   );
