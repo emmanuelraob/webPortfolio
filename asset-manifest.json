@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/webPortfolio/static/css/main.06e84172.css",
+    "main.js": "/webPortfolio/static/js/main.72466f9f.js",
+    "static/js/453.dc598bc0.chunk.js": "/webPortfolio/static/js/453.dc598bc0.chunk.js",
+    "static/media/Flowforce.png": "/webPortfolio/static/media/Flowforce.9293e5a41214e0a71839.png",
+    "static/media/forevergreen.png": "/webPortfolio/static/media/forevergreen.045bab18571404773385.png",
+    "static/media/Movies.png": "/webPortfolio/static/media/Movies.4ad440d1f0967ae501b4.png",
+    "static/media/Jade.png": "/webPortfolio/static/media/Jade.dc734902d529fe3fc718.png",
+    "static/media/GG.png": "/webPortfolio/static/media/GG.dcff345b4f75e5228dc3.png",
+    "static/media/RHInteractivo.png": "/webPortfolio/static/media/RHInteractivo.6051dbbeb345f8810bba.png",
+    "static/media/sen.png": "/webPortfolio/static/media/sen.35aafdbb677cfd568982.png",
+    "static/media/BlogCafe.png": "/webPortfolio/static/media/BlogCafe.fb936c7f83a760c98ad5.png",
+    "static/media/woodenlamp.png": "/webPortfolio/static/media/woodenlamp.689410bff7c12be82071.png",
+    "static/media/imageRecognition.png": "/webPortfolio/static/media/imageRecognition.f2881cf29c25fd295fe1.png",
+    "static/media/CubyTryx.png": "/webPortfolio/static/media/CubyTryx.119ac3dc9de56f89a43b.png",
+    "static/media/Project66.png": "/webPortfolio/static/media/Project66.ea4ba64002dfd94d4daa.png",
+    "static/media/AppleDryer.png": "/webPortfolio/static/media/AppleDryer.388c7a675cf4829d20f4.png",
+    "static/media/tutto.png": "/webPortfolio/static/media/tutto.e077f5a4036c211b659d.png",
+    "static/media/raytracer.png": "/webPortfolio/static/media/raytracer.b0ad3ed21e6961bae745.png",
+    "static/media/P2P.png": "/webPortfolio/static/media/P2P.e62c3dd3cc2c6e158865.png",
+    "static/media/QR.png": "/webPortfolio/static/media/QR.1fbb431f52fd4d9ec1b3.png",
+    "static/media/Encripter.png": "/webPortfolio/static/media/Encripter.0b2ec89f24e8d3253720.png",
+    "static/media/Conversor.png": "/webPortfolio/static/media/Conversor.a56d9fe932ba2778a133.png",
+    "static/media/photomid.png": "/webPortfolio/static/media/photomid.3267ffd27a0e1d0b146e.png",
+    "static/media/photo.png": "/webPortfolio/static/media/photo.94cb59bd8f31aeed14db.png",
+    "static/media/Confidencial.png": "/webPortfolio/static/media/Confidencial.a2ab00eab55ebf26ee52.png",
+    "index.html": "/webPortfolio/index.html",
+    "main.06e84172.css.map": "/webPortfolio/static/css/main.06e84172.css.map",
+    "main.72466f9f.js.map": "/webPortfolio/static/js/main.72466f9f.js.map",
+    "453.dc598bc0.chunk.js.map": "/webPortfolio/static/js/453.dc598bc0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06e84172.css",
+    "static/js/main.72466f9f.js"
+  ]
+}
