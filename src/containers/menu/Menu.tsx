@@ -41,9 +41,9 @@ const Menu: React.FC = () => {
     return (
         
 
-        <div className="flex min-h-screen w-screen  ">
+        <div className="flex min-h-screen w-screen">
 
-            <div className="flex bg-grey-1 text-white lg:ml-[420px]">
+            <div className=" bg-grey-1 text-white lg:ml-[420px] w-full">
                 {renderSection()}
             </div>
 
@@ -111,9 +111,6 @@ const Menu: React.FC = () => {
                 </button>
                 </div>
             </div>
-
-
-
 
                 
             <div className="lg:hidden fixed top-0 left-0 p-4">
