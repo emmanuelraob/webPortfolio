@@ -11,10 +11,10 @@ function App() {
 
   return (
     <div className="App flex">
-      <header>
+      <body>
         <Menu></Menu>
 
-      </header>
+      </body>
     </div>
   );
 }

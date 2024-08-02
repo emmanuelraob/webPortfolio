@@ -35,7 +35,7 @@ const FilterMenu: React.FC<FilterMenuProps> = ({filters, activeFilter, onFilterC
     return (
 
 
-        <div className=' flex gap-4 text-white mb-[56px] sm:flex-col md:flex-row '>
+        <div className=' flex gap-4 text-white mb-[56px] flex-col lg:flex-row '>
             {filters.map((filter) => (
                 <button
                     key={filter}

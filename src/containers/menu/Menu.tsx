@@ -43,7 +43,7 @@ const Menu: React.FC = () => {
 
         <div className="flex min-h-screen w-screen  ">
 
-            <div className="flex-grow bg-grey-1 text-white md:ml-[420px] ">
+            <div className="flex bg-grey-1 text-white lg:ml-[420px]">
                 {renderSection()}
             </div>
 
@@ -51,24 +51,22 @@ const Menu: React.FC = () => {
 
 
 
-            <div className={`w-[420px] h-screen bg-grey-2 border-r-2 border-grey-3 fixed top-0 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition-transform duration-300 ease-in-out`}>
+            <div className={`w-[420px] h-screen bg-grey-2 border-r-2 border-grey-3 fixed top-0 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 transition-transform duration-300 ease-in-out`}>
                 <h1 className="text-text-20 text-white font-montserrat font-bold p-[56px]">{translations.name}</h1>
                 
                 <div className='ml-[56px] flex flex-col text-left items-start gap-[40px]'>
                 <img src={ProfilePhoto} alt="profile" className='rounded-full'/>
 
-                {/* 
-                    <button
-                    className={flex gap-[15px] items-center font-regular text-white ${selectedSection === 'professional_profile' ? 'text-text-30 opacity-100' : 'text-text-24 opacity-50'}}
+                <button
+                    className={`flex gap-[15px] items-center font-regular text-white ${selectedSection === 'professional_profile' ? 'text-text-30 opacity-100' : 'text-text-24 opacity-50'}`}
                     onClick={() => {
                         setSelectedSection('professional_profile');
                         setIsOpen(false); 
                       }}
-                    >
+                >
                     <PersonIcon />
                     {translations.ProfessionalProfile}
-                    </button>
-                */}
+                </button>
                 
                 <button
                     className={`flex gap-[15px] items-center font-regular text-white ${selectedSection === 'portfolio' ? 'text-text-30 opacity-100' : 'text-text-24 opacity-50'}`}
@@ -118,7 +116,7 @@ const Menu: React.FC = () => {
 
 
                 
-            <div className="md:hidden fixed top-0 left-0 p-4">
+            <div className="lg:hidden fixed top-0 left-0 p-4">
                 <button
                 onClick={() => setIsOpen(!isOpen)}
                 className="focus:outline-none"
