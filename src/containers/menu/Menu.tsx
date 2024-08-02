@@ -56,7 +56,8 @@ const Menu: React.FC = () => {
                 
                 <div className='ml-[56px] flex flex-col text-left items-start gap-[40px]'>
                 <img src={ProfilePhoto} alt="profile" className='rounded-full'/>
-
+                
+                {/*
                 <button
                     className={`flex gap-[15px] items-center font-regular text-white ${selectedSection === 'professional_profile' ? 'text-text-30 opacity-100' : 'text-text-24 opacity-50'}`}
                     onClick={() => {
@@ -67,7 +68,7 @@ const Menu: React.FC = () => {
                     <PersonIcon />
                     {translations.ProfessionalProfile}
                 </button>
-                
+                */}
                 <button
                     className={`flex gap-[15px] items-center font-regular text-white ${selectedSection === 'portfolio' ? 'text-text-30 opacity-100' : 'text-text-24 opacity-50'}`}
                     onClick={() => {
