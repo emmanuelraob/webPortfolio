@@ -201,7 +201,7 @@ const Portfolio = () => {
 
     return (
         <div className="font-open-sans ml-[56px] text-text-20 mr-[56px] mb-6">
-            <h2 className="font-montserrat font-bold text-text-42 mt-[45px] mb-[56px] ">{translations.Resume}</h2>
+            <h2 className="font-montserrat font-bold text-text-42 mt-[45px] mb-[56px] ">{translations.Portfolio}</h2>
             <FilterMenu filters={filters} activeFilter={activeFilter} onFilterChange={setActiveFilter} />
             <ProjectList projects={projects} activeFilter={activeFilter} />
         </div>

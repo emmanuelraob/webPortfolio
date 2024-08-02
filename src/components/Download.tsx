@@ -2,9 +2,10 @@ import React from 'react';
 import { useLanguage } from '../locales/LanguageContext';
 
 const ResumeDownloadButton: React.FC = () => {
-  const { translations, lang } = useLanguage(); // Suponiendo que `lang` contiene el idioma actual
-  // Define las URLs de los archivos PDF
-  const cvUrl = lang === 'EN' ? '/Emmanuel_Ramírez_cv_en.pdf' : '/Emmanuel_Ramírez_cv_es.pdf';
+  const { translations, lang } = useLanguage(); 
+  
+  const cvUrl = lang === 'EN' ? 'https://emmanuelraob.github.io/webPortfolio/Emmanuel_Ram%C3%ADrez_cv_en.pdf' : 'https://emmanuelraob.github.io/webPortfolio/Emmanuel_Ram%C3%ADrez_cv_es.pdf';
+  
 
   return (
     <a href={cvUrl} download className="block">
@@ -16,3 +17,5 @@ const ResumeDownloadButton: React.FC = () => {
 };
 
 export default ResumeDownloadButton;
+
+

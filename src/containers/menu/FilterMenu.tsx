@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../../locales/LanguageContext';
 
+
 interface FilterMenuProps {
     filters: string[];
     activeFilter: string;
@@ -32,11 +33,16 @@ const FilterMenu: React.FC<FilterMenuProps> = ({filters, activeFilter, onFilterC
     const { translations } = useLanguage();
 
     return (
-        <div className=' flex gap-4 text-white mb-[56px] '>
+
+
+        <div className=' flex gap-4 text-white mb-[56px] sm:flex-col md:flex-row '>
             {filters.map((filter) => (
                 <button
                     key={filter}
-                    className={`py-[4px] px-[8px] rounded font-regular text-text-30 ${filter === activeFilter ? 'bg-primary font-bold text-grey-1' : ''}`}
+                    className={`py-[4px] px-[8px] rounded 
+                      transition duration-300 ease-in-out
+                      hover:underline
+                      font-regular text-text-30 ${filter === activeFilter ? 'bg-primary font-bold text-grey-1' : ''}`}
                     onClick={() => onFilterChange(filter)}
                 >
                     {getTranslation(filter, translations)}

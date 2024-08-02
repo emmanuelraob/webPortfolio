@@ -190,7 +190,7 @@ const EN = {
     ED4place:"Alura Latam & Oracle",
 
 
-    HabilitiesTittle:"Habilities",
+    HabilitiesTittle:"Abilities",
     Habilities: ["3D Modeling",
       "Graphic Design",
       "User Research",
