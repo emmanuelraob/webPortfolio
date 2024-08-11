@@ -42,6 +42,15 @@ const EN = {
     //professional profile
     ProfessionalProfile: "Professional Profile",
     presentation:"presentation",
+    ViewCV:"See Resume",
+    ViewPortfolio:"See more projects",
+
+    AbilitiesTittle: "Abilities",
+
+    ProjectsTittle: "Projects",
+
+    CT: "Contact",
+
 
     //portfolio 
     Portfolio: "Projects",

@@ -14,14 +14,14 @@ import TextSnippetIcon from '@mui/icons-material/TextSnippet';
 
 const Menu: React.FC = () => {
     const { translations, setLanguage } = useLanguage();
-    const [selectedSection, setSelectedSection] = useState<'professional_profile' | 'portfolio' | 'resume'>('portfolio');
+    const [selectedSection, setSelectedSection] = useState<'professional_profile' | 'portfolio' | 'resume'>('professional_profile');
     const [selectedLanguage, setSelectedLanguage] = useState<'EN' | 'ES'>('EN'); 
 
 
     const renderSection = () => {
         switch (selectedSection) {
           case 'professional_profile':
-            return <ProfessionalProfile />;
+            return <ProfessionalProfile onChangeSection={setSelectedSection}/>;
           case 'portfolio':
             return <Portfolio />;
           case 'resume':
@@ -57,7 +57,6 @@ const Menu: React.FC = () => {
                 <div className='ml-[56px] flex flex-col text-left items-start gap-[40px]'>
                 <img src={ProfilePhoto} alt="profile" className='rounded-full'/>
                 
-                {/*
                 <button
                     className={`flex gap-[15px] items-center font-regular text-white ${selectedSection === 'professional_profile' ? 'text-text-30 opacity-100' : 'text-text-24 opacity-50'}`}
                     onClick={() => {
@@ -68,7 +67,7 @@ const Menu: React.FC = () => {
                     <PersonIcon />
                     {translations.ProfessionalProfile}
                 </button>
-                */}
+                
                 <button
                     className={`flex gap-[15px] items-center font-regular text-white ${selectedSection === 'portfolio' ? 'text-text-30 opacity-100' : 'text-text-24 opacity-50'}`}
                     onClick={() => {

@@ -24,11 +24,11 @@ const Resume = () => {
             <div className="max-w-[900px] w-full mx-auto">
                 <ResumeDownloadButton/>
 
-                <div className="information flex justify-between items-center">
+                <div className="information flex justify-between items-center flex-col-reverse xs:flex-row">
                     <div className="text mr-[16px]">
                         <h2 className="font-bold text-text-30 mb-[16px]">{translations.name}</h2>
                         <p>{translations.resume_description}</p>
-                        <div className="flags ">
+                        <div className="">
                             <div className="flex gap-[16px] mt-[24px]">
                                 <button onClick={() => window.location.href = 'mailto:emmanuelraob123@gmail.com'}> 
                                     <EmailIcon style={{ fontSize: 35 }}/>
@@ -42,13 +42,10 @@ const Resume = () => {
                                 <button onClick={() => window.open('https://Wa.me/+50687060227', '_blank', 'noopener,noreferrer')}> 
                                     <WhatsAppIcon style={{ fontSize: 35 }}/>
                                 </button>
-                            
-                                
-                            
                             </div>
                         </div>
                     </div>
-                    <img src={ProfilePhoto} alt="profile" className=""/>
+                    <img src={ProfilePhoto} alt="profile"/>
                     
                 </div>
 

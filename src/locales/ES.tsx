@@ -43,6 +43,15 @@ const ES = {
     //professional profile
     ProfessionalProfile: "Perfil Profesional",
     presentation:"presentación",
+    ViewCV:"Ver CV",
+    ViewPortfolio:"Ver más proyectos",
+
+    AbilitiesTittle: "Habilidades",
+
+    ProjectsTittle: "Proyectos",
+
+    CT: "Contacto",
+
 
     //portfolio
     Portfolio: "Proyectos",
